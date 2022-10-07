@@ -1,0 +1,42 @@
+.promo {
+    display:inline-block;
+    min-height: 555px;
+    padding: 9px;
+    &_header {
+        margin-top: 150px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #22343D;
+    }
+    &_descr {
+        margin-top: 20px;
+        width: 458px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #22343D;
+    }
+    &_wrapper {
+        width: 366px;
+        height: 53px;
+        display: flex;
+        margin-top: 45px;
+        &__watch {
+            padding-left: 30px;
+            margin-top: 15px;
+            a {
+                text-align: center;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #02897A;
+                text-decoration-line:underline;
+            }
+        }
+    }
+    &_block {
+        display:inline-block;
+    
+    }
+}

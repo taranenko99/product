@@ -1,0 +1,121 @@
+.price {
+    min-height: 589px;
+    margin-top: 150px;
+
+    &__header {
+        text-align: center;
+        font-weight: 700;
+        font-size: 34px;
+        color: #22343D;
+    }
+
+    &__subheader {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        color: #22343D;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__item {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 323px;
+        height: 456px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:hover {
+            background: #02897A;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+         }
+
+         &:hover .price__item_header {
+            color: #FFFFFF;
+        }
+
+        &:hover .price__item_subheader {
+            color: #FFFFFF;
+        }
+
+        &:hover .price__item-cash_number {
+            color: #FFFFFF;
+        }
+
+        &:hover .price__item-cash_month {
+            color: #FFFFFF;
+            span {
+                color: #E0E0E0;
+            }
+        }
+
+        &:hover .price__item_text {
+            color: #FFFFFF;
+        }
+
+        &:hover .button_grean-order{
+            background-color: #FFFFFF;
+            color: #02897A;
+        }
+
+        &_header {
+            margin-top: 24px;
+            font-weight: 700;
+            font-size: 24px;
+            color: #22343D;
+        }
+        &_subheader {
+            margin-top: 12px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #22343D;
+        }
+
+        &_text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 36px;
+            letter-spacing: 0.2px;
+            color: #22343D;
+            text-align: center;
+            padding: 16px;
+        }
+    }
+    &__item-cash {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        margin-top: 16px;
+        &_number {
+            font-weight: 700;
+            font-size: 76px;
+            color: #02897A;
+            letter-spacing: 0.2px;
+            
+        }
+        &_month {
+            margin-top: 25px;
+            padding-left: 7px;
+            font-weight: 700;
+            font-size: 24px;
+            letter-spacing: 0.1px;
+            color: #02897A;
+        span {
+            position: relative;
+            display: block;
+            margin-bottom: 30px;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0.1px;
+            color: #AFAFAF;
+        }
+        }
+    }
+}

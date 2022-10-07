@@ -1,0 +1,114 @@
+.eprocess {
+    position: relative;
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    &__top {
+        text-align: center;
+
+        
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 32px;   
+        color: #22343D; 
+    }
+
+    &__subheader {
+        width: 650px;
+        height: 52px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        width: 900px;
+        height: 270px;
+        margin-left: 95px;
+        align-content: space-between;
+        margin-right: 0px;
+        margin-top: 32px;
+    }
+
+    &__item {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 380px;
+        margin-top: 24px;
+        justify-content: space-between;
+        align-items: center;
+        &_text {
+            font-weight: 500;
+            margin-top: 12px;
+            font-size: 16px;
+            color: #2F281E;
+            
+        }
+
+        &_rm-out {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            left: 51%;
+            top: 86%;
+            bottom: 0%;
+            box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+        }
+
+        &_rm-out-l {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            left: 37%;
+            top: 86%;
+            bottom: 0%;
+            box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+        }
+
+        .eprocess__round {
+            z-index: 1;
+            position: relative;
+            background: #FFFFFF;
+            width: 260px;
+            height: 50px;
+            box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+            border-radius: 26.5px;
+            &_rm {
+                z-index: 2;
+                position: absolute;
+                width: 17px;
+                height: 17px;
+                border-radius: 50%;
+                background: #FFFFFF;;
+                left: 77.92%;
+                right: 15%;
+                top: 82%;
+                bottom: 15.71%;
+            }
+            &_rm-l {
+                z-index: 2;
+                position: absolute;
+                width: 17px;
+                height: 17px;
+                border-radius: 50%;
+                background: #FFFFFF;;
+                left: 11.68%;
+                right: 82.12%;
+                top: 82%;
+                bottom: 15.71%;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.collaboration {
+    display: inline-block;
+    margin-top: 150px;
+    min-height: 452px;
+    padding: 9px;
+
+    &__wrapper {
+        display: inline-block;
+    }
+
+    &__text {
+        width: 486px;
+        margin-right: 48px;
+    }
+
+    &__header-of-top {
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 32px;
+        color: #22343D;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        color: #22343D;
+    }
+
+}
